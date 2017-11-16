@@ -1,7 +1,7 @@
 <!doctype html>
 	<html lang="en">
 	<style>
-body{
+body{text-align:center;
           cursor:no-drop;
           background-image:url(https://fearmastery.files.wordpress.com/2013/04/disputing-feelings-1.jpg);
           background-position:center;
@@ -28,6 +28,7 @@ body{
     <a href="feelings.html">Feelings</a>
     <a href="app.html">Our App</a>
     <a href="watermelon.html">The Single Watermelon</a>
+    <a href="snake.html">Snake</a>
   
 
   
@@ -42,13 +43,33 @@ body{
   <label for="sad" class="option-sad">Sad</label>
   
   <input class="hide" type="checkbox" title="Meh" name="meh" id="meh">
-  <label for="meh" class="option-meh">Meh</label></center>
+  <label for="meh" class="option-meh">Meh</label>
+  <p></p>
+  <center><span id="demo" style="cursor:wait">Enter your password. I wont steal it :)</span></center>
+  <center><input style="cursor:wait;color:red" type="password"></center>
+  
+  <center><button onclick="myFunction()">Try it</button></center>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+      
+      
+      
+      
+      
+  </script>
 </form>
     
 
 
 
-<span style="cursor:wait">Hover Here</span>
+
+
+ 
 
     
     <br>
